@@ -1,6 +1,6 @@
-# A-THENA: Early Intrusion Detection for IoT with Time-Aware Hybrid Encoding
+# 📄 A-THENA: Early Intrusion Detection for IoT with Time-Aware Hybrid Encoding
 
-This repository contains the official source code for the paper **"A-THENA: Early Intrusion Detection for IoT with Time-Aware Hybrid Encoding and Network-Specific Augmentation"**.
+This repository contains the official source code for the paper **"[A-THENA: Early Intrusion Detection for IoT with Time-Aware Hybrid Encoding and Network-Specific Augmentation](https://dl.acm.org/doi/10.1145/3811033)"**, published in ACM Transactions on AI Security and Privacy.
 
 A-THENA is a lightweight, Transformer-based Early Intrusion Detection System (EIDS) tailored for resource-constrained IoT devices. Unlike traditional models that treat network flows as uniform sequences, A-THENA utilizes packet timestamps to capture fine-grained temporal dynamics.
 
@@ -114,12 +114,15 @@ Key hyperparameters can be adjusted via CLI arguments:
 If you utilize this code in your research, please cite:
 
 ```bibtex
-@article{athena2026,
-  title={A-THENA: Early Intrusion Detection for IoT with Time-Aware Hybrid Encoding and Network-Specific Augmentation},
-  author={Ioannis Panopoulos, Maria Lamprini A. Bartsioka, Sokratis Nikolaidis, Stylianos I. Venieris, Dimitra I. Kaklamani, and Iakovos S. Venieris},
-  journal={ACM Transactions on AI Security and Privacy},
-  year={2026},
-  publisher={ACM}
+@article{panopoulos2026athena,
+   title = {A-THENA: Early Intrusion Detection for IoT with Time-Aware Hybrid Encoding and Network-Specific Augmentation},
+   author = {Panopoulos, Ioannis and Bartsioka, Maria Lamprini A. and Nikolaidis, Sokratis and Venieris, Stylianos I. and Kaklamani, Dimitra I. and Venieris, Iakovos S.},
+   journal = {ACM Transactions on AI Security and Privacy},
+   publisher = {Association for Computing Machinery},
+   address = {New York, NY, USA},
+   year = {2026},
+   doi = {10.1145/3811033},
+   url = {http://dx.doi.org/10.1145/3811033},
 }
 ```
 
